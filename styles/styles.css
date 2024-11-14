@@ -339,7 +339,7 @@ a{
 .Categories-info1{
     float: right; 
     font-size: 10px;
-    width: 30px;
+    width: 10px;
     margin-left: auto;
 }
 .Categories-info2{
@@ -464,4 +464,46 @@ a{
         object-fit:fill;
     }
 }
-    
+
+/* Profile */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 900px;
+    background: var(--color-card-light);
+    transition: all 0.5s ease-in-out;
+  }
+  
+.card-dark{
+    background: var(--color-card-dark);
+    color: var(--color-dark);
+    transition: all 0.5s ease-in-out;
+}
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }

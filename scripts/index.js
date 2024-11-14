@@ -98,6 +98,7 @@ $(function() {
         $('.modal-body').addClass('modal-body-dark');
         $('.modal-content').addClass('modal-content-dark');
         $('.btn-dark').addClass('btn-dark-light');
+        $('.card').addClass('card-dark');
     });
 
     $('#sun').click(function() {
@@ -116,6 +117,7 @@ $(function() {
         $('.modal-body').removeClass('modal-body-dark');
         $('.modal-content').removeClass('modal-content-dark');
         $('.btn-dark').removeClass('btn-dark-light');
+        $('.card').removeClass('card-dark');
     });
    
 });
