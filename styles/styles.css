@@ -519,5 +519,12 @@ a{
   }
 
   .card{
-    border: solid 5px rgb(38, 240, 247);
+    background: var(--color-card-light);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .card-dark{
+    background: var(--color-card-dark);
+    color: var(--color-dark);
+    transition: all 0.5s ease-in-out;
   }
